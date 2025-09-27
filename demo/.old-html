@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universe Hover Experience</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Universe Background -->
+  <canvas id="universe-bg"></canvas>
+
+  <!-- Foreground Content -->
+  <div class="content">
+    <h1>🌌 Universe Hover Experience</h1>
+    <p>Boxes act like suns — asteroids are pulled in and explode on impact ✨</p>
+
+    <div class="hover-zone">
+      <h2>☀️ Sun Zone</h2>
+      <p>This card attracts asteroids and destroys them on touch.</p>
+    </div>
+
+    <div class="hover-zone">
+      <h2>🌞 Another Sun Zone</h2>
+      <p>Asteroids regenerate after explosion here.</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
